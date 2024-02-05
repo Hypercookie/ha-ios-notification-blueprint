@@ -5,13 +5,13 @@ blueprint:
     "## General Stuff\nThis Blueprint should capture all options that exist
     for notificaions on IOS. If you find something that is broken, or that is missing
     tell me. \n__THIS DOES NOT SUPPORT ANDROID__ (it may work tho at least some of
-    it.) While this blueprint aims to be for actionable notificaions, you can simply
+    it.) While this blueprint aims to be for actionable notifications, you can simply
     not enable any actions and use this as a normal notification.  All actions are
     disabled by default. Don't forget to enable them with the toggle right there by
     header of the action section. Please note that currently there are some [bugs](https://github.com/home-assistant/frontend/issues/12542)
     inside the blueprint engine, which means that you can _not_ disable switches after
     you enable them. So if you screw this up, you will have to make a new automation.
-    Or edit the yaml in the `authomations.yaml` file.\n## Templates\nThe blueprint
+    Or edit the yaml in the `automations.yaml` file.\n## Templates\nThe blueprint
     engine seems to allow adding templates in text fields. Everywhere else, you are
     out of luck.\n"
   input:
